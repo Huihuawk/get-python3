@@ -1,3 +1,5 @@
 #!/usr/bin/env python3
 
-print('huihuawk')
+name = input('input your lover`s name:')
+
+print(name, 'is so beautiful.')
