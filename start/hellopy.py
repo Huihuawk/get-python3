@@ -97,3 +97,63 @@ len(b'\xe4\xb8\xad\xe6\x96\x87')
 print('%s is the best - %d percent' % ('doudou', 100))
 
 print('Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125))
+
+# list / tuple
+
+friends = ['doudou', 'keke', 'huhu']
+friends
+len(friends)
+
+friends[1]
+friends[-1]
+
+friends.append('zz')
+friends.insert(1, 'hh')
+friends.pop()
+friends.pop(1)
+
+friends[1] = 'zzh'
+
+wth = ['wt', 12, True]
+wth
+
+lType =  ['python', 'java', ['asp', 'php'], 'scheme']
+lType
+len(lType)
+
+L = []
+len(L)
+
+# >>> friends = ['doudou', 'keke', 'huhu']
+# >>> friends
+# ['doudou', 'keke', 'huhu']
+# >>> len(friends)
+# 3
+# >>> friends[1]
+# 'keke'
+# >>> friends[-1]
+# 'huhu'
+# >>> friends.append('zz')
+# >>> friends.insert(1, 'hh')
+# >>> friends.pop()
+# 'zz'
+# >>> friends.pop(1)
+# 'hh'
+# >>> friends[1] = 'zzh'
+# >>> wth = ['wt', 12, True]
+# >>> wth
+# ['wt', 12, True]
+# >>> lType =  ['python', 'java', ['asp', 'php'], 'scheme']
+# >>> lType
+# ['python', 'java', ['asp', 'php'], 'scheme']
+# >>> len(lType)
+# 4
+# >>> L = []
+# >>> len(L)
+# 0
+
+exTuple = ('bu', 'ke', 'xiu', 'gai')
+t = (1,)
+t
+# Python在显示只有1个元素的tuple时，也会加一个逗号,，以免你误解成数学计算意义上的括号。
+# list和tuple是Python内置的有序集合，一个可变，一个不可变。根据需要来选择使用它们。
